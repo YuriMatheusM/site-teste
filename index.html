@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-widht, initial-scale=10">
+    <title>Petshop taiuri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="botao" onclick="menu()">&#9776</button>
+        <nav>
+           <ul class="listt" id="list">
+            <li><a href="entrar.html" target="_self">Entrar</a></li>
+            <li><a href="#final">Cadastrar</a></li>
+            <li><a href="loja.html" target="_blank">Loja</a></li>
+            <li><a href="#info">Mais informações</a></li>
+           </ul>
+        </nav>
+        <script>
+            function Menu() {
+                var menu = document.getElementById("list");
+                if(menu.style.display ==="none"){
+                    menu.style.display="block";
+                }else{
+                    menu.style.display="none";
+                }
+            }
+        </script>
+        
+    </header>
+        <h1>Petshop taiuri</h1>
+        <p>Cuidaremos do seu pet com muito amor e carinho!</p>
+        <main>
+            <section>
+                <h2>Sobre o Petshop</h2>
+                <p>No nosso petshop, acreditamos que os pets são parte da família e merecem todo o carinho e cuidado que podemos oferecer. Fundado com paixão e compromisso, nosso objetivo é proporcionar um ambiente acolhedor onde você e seu melhor amigo encontram tudo o que precisam: desde produtos de alta qualidade até serviços especializados.<br>Alias, da uma passada na nossa loja, mas antes <strong>faça o cadastro</strong>, clique nos três traços no canto esquerdp(ou desça até o final do site), o proximo passo é entrar na sua conta, novamente nos três traços. Agora é so desfrutar dos nossos itens com preços imperdíveis.</p>
+                <h2>Sobre nós</h2>
+                <p>Nossa equipe é formada por amantes de animais, prontos para oferecer atendimento personalizado, orientações e o cuidado que seu pet merece. Aqui, o bem-estar do seu bichinho está sempre em primeiro lugar.</p> 
+                <p>Venha nos conhecer e descubra como podemos tornar o dia a dia do seu pet mais saudável, feliz e cheio de amor!</p>
+            </section>
+            <section>
+            <h2>Nosso local de atendimento</h2>
+            <img src="consultorio.jpg" alt="consultorio">
+            <img src="coisinhas petshop.jpg" alt="estantes de itens para animais">
+            <img src="coisinhas2.jpg" alt="estantes de itens para animais">
+            </section>
+            <section>
+                 <div class="final" id="final"><h2>Área de cadastro </h2></div> 
+                <p><strong>(o cadastro é necessario para a realização das compras pelo site e para facilidar na hora de atendimento do seu pet.)</p>
+                <h3>Nome</h3>
+                <form>
+                    <input type="text" id="p1" name="pergunta1"
+                    placeholder="Digite o seu nome...">
+                </form>
+                    <h3>Endereço</h3>
+                <form>
+                    <input type="text" id="p2" name="pergunta2"
+                    placeholder="Digite seu endereço...">
+                </form>
+                <h3>Número da residência</h3>
+                <form>
+                    <input type="text" id="p3" name="pergunta3"
+                    placeholder="Digite o numero da residencia...">
+                </form>
+                <h3>Telefone</h3>
+                <form>
+                    <input type="text" id="p4" name="pergunta4"
+                    placeholder="Digite seu numero...">
+                </form>
+                <h3>Nome do pet</h3>
+                <form>
+                    <input type="text" id="p5" name="pergunta5"
+                    placeholder="Digite o nome do seu pet...">
+                </form>
+                <h3>Data de nascimento do pet</h3>
+                    <form>
+                        <input type="date" id="p6" name="pergunta6" placeholder="Data pet">
+
+                    </form>
+                <h3>Email</h3>
+                    <form>
+                        <input type="email" id="p7" name="pergunta7"
+                        placeholder="Digite seu email...">
+                    </form>
+                <h3>Senha</h3>
+                    <form>
+                        <input type="password" id="p8" name="pergunta8"
+                    placeholder="Digite sua senha...">
+                    </form>
+            </section>
+            <section>
+                <div class="info" id="info"><h2>Nossas informações</h2></div>
+                <p>Email: Petshoptaiuri69@gmail.com</p>
+                <p>Contato: (83)9 9999-9999</p>
+                <p>Instagram:@Petshoptaiuri_ty</p>
+                <p>Local: Av. Tarzan da árvore, 1617</p>
+                <P>Cep: 12345-678</P>
+                <p>Cnpj: 00.000.000/0000-00</p>
+            </section>
+        </main>
+            
+</body>
+</html>
